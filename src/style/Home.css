@@ -6,6 +6,7 @@ body {
     padding: 0;
   }
   
+  /* Navbar */
   nav {
     background-color: #333;
     overflow: hidden;
@@ -68,3 +69,10 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  /* Footer */
+  
+
+
+
+  /* About Us */

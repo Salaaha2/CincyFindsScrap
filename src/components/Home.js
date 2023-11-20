@@ -2,7 +2,8 @@
 
 import React from 'react';
 import Navbar from './Navbar';
-import './Home.css'; // Import the CSS file
+import Footer from './Footer';
+import '../style/Home.css'; // Import the CSS file
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <div className="title">Cincy Finds</div>
         <div className="subtitle">Cincinnati's treasure unveiled</div>
       </div>
+      <Footer />
     </div>
   );
 }
