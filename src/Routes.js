@@ -1,17 +1,18 @@
 // src/Routes.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route, Switch } from 'react-router-dom'; // App
 import Home from './components/Home';
 import About from './components/About';
 
 const Routes = () => {
   return (
-    <Router>
+    // App
+    <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 };
 

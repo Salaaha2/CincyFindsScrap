@@ -12,7 +12,7 @@ body {
     overflow: hidden;
   }
   
-  nav a {
+  .nav-link {
     float: left;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@ body {
     margin: 0;
   }
   
-  .navbar a:hover,
+  .navbar .nav-link:hover,
   .dropdown:hover .dropbtn {
     background-color: orange;
   }
@@ -53,7 +53,7 @@ body {
     z-index: 1;
   }
   
-  .dropdown-content a {
+  .dropdown-content .nav-link {
     float: none;
     color: black;
     padding: 12px 14px; /* Adjust as needed */
